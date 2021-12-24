@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mi>d</mi>
+        <mo>=</mo>
+        <mn>x</mn>
+        <mo>-</mo>
+        <mn>y</mn>
+    </mrow>
+</math>

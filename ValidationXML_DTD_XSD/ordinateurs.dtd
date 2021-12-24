@@ -1,0 +1,34 @@
+<!-- DTD pour l'exercice "crÃ©er un document XML valide" -->
+
+<!-- dÃ©finition de l'Ã©lÃ©ment racine -->
+<!ELEMENT ordinateurs (ordinateur+)>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment ordinateur -->
+<!ELEMENT ordinateur (description, cpu, ram, disque+)>
+<!ATTLIST ordinateur 
+    numero ID #REQUIRED 
+    prix CDATA #IMPLIED
+>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment description -->
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description marque CDATA #REQUIRED>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment cpu -->
+<!ELEMENT cpu EMPTY>
+<!ATTLIST cpu 
+    marque  (intel | amd) #REQUIRED
+    modele CDATA #REQUIRED
+>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment ram -->
+<!ELEMENT ram EMPTY>
+<!ATTLIST ram taille CDATA #REQUIRED>
+
+<!-- definition de l'élément disque -->
+<!ELEMENT disque EMPTY>
+<!ATTLIST disque 
+    taille CDATA #REQUIRED
+    date CDATA #IMPLIED
+    type (SSD | HD) "HD"
+>

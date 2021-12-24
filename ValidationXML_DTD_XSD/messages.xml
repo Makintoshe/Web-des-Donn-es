@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <messages  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="messages.xsd">
+-->
+<!DOCTYPE messages SYSTEM "messages.dtd">
+<messages>
+    <!-- Un message vide-->
+    <message date="1998-01-10"/>
+
+    <!-- Un message non vide-->
+    <message date="1998-01-10" destinataire="ketsia">
+        Hello it's Ketsia, i'm happy to learn XML !
+    </message>
+
+</messages>

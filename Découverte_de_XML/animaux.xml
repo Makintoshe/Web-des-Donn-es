@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Racine-->
+<animaux xml:type="Une_Alimentation">
+<!--rajouter un attribu type et la valeur entre guillement-->
+  <alimentation xml:type="carnivore"> 
+  <!--Fermer la balise et mettre le texte entre guillement-->
+    <animal nom="renard"/>  
+    <!--idem-->  
+    <animal nom="loup"/> 
+  </alimentation>
+  <!--rajouter un attribu type et  la valeur entre guillement-->
+  <alimentation xml:type="herbivore"> 
+  <!--rajouter la valeur entre guillement-->
+    <animal nom="vache"/>  
+    <!--idem-->
+    <animal nom="cheval"/> 
+    <!--Fermer la balise alimentation-->
+  </alimentation> 
+</animaux>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes' ?>
+<!DOCTYPE astronaute [
+
+<!ENTITY a1 "Alan Shepard">
+<!ENTITY a2 "Neil Armstrong">
+<!ENTITY a3 "David Scott">
+<!ENTITY a4 "Edwin Aldrin">
+<!ENTITY a5 "Michael Collins">
+<!ENTITY a6 "Pavel Beliaïev">
+<!ENTITY a7 "Alexei Leonov">
+<!ENTITY obj1 "maîtriser le vol spatial en orbite autour de la Terre et mettre au point les manœuvres de rendez-vous">
+<!ENTITY obj2 "e découvrir le vol spatial autour de la Terre.">
+]>
+<GoToTheMoon>
+    <Country pays="USA">
+        <Description quid="la conquête de la Lune, les Américains
+        (USA) ont monté trois programmes spatiaux : Mercury, Gemini et
+        Apollo"/>
+        <Spaceman nom="&a1;">
+            <Program nom="Mercury" duree="1958 à 1963" nb_miss="6">
+                <Mission num="3" date="5 mai 1961">
+                    <Goal>
+                        découvrir le vol spatial autour de la Terre.
+                    </Goal>
+                    <Observation>
+                         premier vol spatial américain
+                    </Observation>
+                </Mission>
+            </Program>  
+        </Spaceman>
+        <Spaceman nom="&a2;">
+            <Program nom="Gemini" duree="1963 à 1966" nb_miss="12">
+            </Program>
+            <Program nom="Apollo" duree="1961 à 1975" nb_miss="17">
+            </Program>
+        </Spaceman>
+        <Spaceman nom="&a3;">
+            <Program nom="Gemini" duree="1963 à 1966" nb_miss="12">
+            </Program>
+        </Spaceman>
+        <Spaceman nom="&a4;">
+            <Program nom="Apollo" duree="1961 à 1975" nb_miss="17">
+            </Program>
+        </Spaceman>
+    </Country>
+    <Country pays="URSS">
+        <Description quid="plusieurs programmes spatiaux : Vostok, Voskhod, Luna et Lunokhod"/>
+        <Spaceman nom="&a6;">
+        <Program nom="Voskhod" duree="1964 à 1965" nb_miss="2">
+        </Program>
+        </Spaceman>
+        <Spaceman nom="&a7;">
+        <Program nom="Voskhod" duree="1964 à 1965" nb_miss="2">
+        </Program>
+        </Spaceman>
+    </Country>
+</GoToTheMoon>

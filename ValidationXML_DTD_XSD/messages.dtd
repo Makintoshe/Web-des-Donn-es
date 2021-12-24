@@ -1,0 +1,9 @@
+<!-- Definition de l'élément racine -->
+<!ELEMENT messages (message+)>
+
+<!-- Definition de l'élément message -->
+<!ELEMENT message (#PCDATA)>
+<!ATTLIST message 
+    date CDATA #REQUIRED
+    destinataire CDATA #IMPLIED
+    >

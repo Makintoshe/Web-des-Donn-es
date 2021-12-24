@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='yes' ?>
+<!DOCTYPE astronaute [
+<!ENTITY a1 "Alan Shepard">
+<!ENTITY a2 "Neil Armstrong">
+<!ENTITY a3 "David Scott">
+<!ENTITY a4 "Edwin Aldrin">
+<!ENTITY a5 "Michael Collins">
+<!ENTITY a6 "Pavel Beliaïev">
+<!ENTITY a7 "Alexei Leonov">
+<!ENTITY obj1 "maîtriser le vol spatial en orbite autour de la Terre et mettre au point les manœuvres de rendez-vous">
+<!ENTITY obj2 "e découvrir le vol spatial autour de la Terre.">
+]>
+<GoToTheMoon>
+    <Country pays="USA">
+        <Description quid="la conquête de la Lune, les Américains
+        (USA) ont monté trois programmes spatiaux : Mercury, Gemini et
+        Apollo"/>
+        <Program nom="Mercury" duree="1958 à 1963" nb_miss="6">
+            <Mission num="3" date="5 mai 1961">
+                <Spaceman>
+                &a1;
+                </Spaceman>
+                <Goal>
+                    découvrir le vol spatial autour de la Terre.
+                </Goal>
+                <Observation>
+                     premier vol spatial américain
+                </Observation>
+            </Mission>
+        </Program>
+        <Program nom="Gemini" duree="1963 à 1966" nb_miss="12">
+            <Mission num="8" date="16 mars 1966">
+                <Spaceman>
+                &a2;
+                </Spaceman> 
+                <Spaceman>
+                &a3;
+                </Spaceman> 
+                <Goal>
+                     &obj1;
+                </Goal>
+                <Observation>
+                    premier rendez-vous spatial
+                </Observation>
+            </Mission>
+        </Program>
+        <Program nom="Apollo" duree="1961 à 1975" nb_miss="17">
+            <Mission num="11" date="21 juillet 1969">
+                <Spaceman>
+                &a2;
+                </Spaceman>
+                <Spaceman>
+                &a4;
+                </Spaceman>
+                <Spaceman>
+                &a5;
+                </Spaceman>
+                <Goal>
+                    poser des astronautes sur la Lune et de l’explorer
+                </Goal>
+                <Observation>
+                    premier alunissage
+                </Observation>
+            </Mission>
+            <Mission num="17" date="11 décembre 1972">
+                <Observation>
+                    dernière mission Apollo à se poser sur la Lune
+                </Observation>
+            </Mission>
+        </Program>
+    </Country>
+    <Country pays="URSS">
+        <Description quid="plusieurs programmes spatiaux : Vostok, Voskhod, Luna et Lunokhod"/>
+        <Program nom="Vostok" duree="1961 à 1963" nb_miss="6">
+            <Mission num="1" date="12 avril 1961">
+                <Goal>
+                    &obj2;
+                </Goal>
+                <Observation>
+                    le premier vol spatial
+                </Observation>
+            </Mission>
+        </Program>
+        <Program nom="Voskhod" duree="1964 à 1965" nb_miss="2">
+            <Mission num="1" date="12 avril 1961">
+                <Goal>
+                    &obj1;
+                </Goal>
+                <Observation>
+                    le premier vol spatial
+                </Observation>
+            </Mission>
+            <Mission num="2" date="18 mars 1965">
+                <Spaceman>
+                &a6;
+                </Spaceman>
+                <Spaceman>
+                &a7;
+                </Spaceman>
+                <Observation>
+                    première marche dans l’espace
+                </Observation>
+            </Mission>
+        </Program>
+    </Country>
+</GoToTheMoon>

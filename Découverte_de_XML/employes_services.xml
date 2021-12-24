@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employes xmlns:serv="http://services.xml" xmlns:emp="http://employe.xml">
+  <employe numero="1">
+    <emp:nom>Arthur Martin</emp:nom>
+    <serv:nom id="S1" taux="100%">Comptabilité</serv:nom>
+  </employe>
+  <employe numero="2">
+    <emp:nom>Paul Whirl</emp:nom>
+    <serv:nom id="S1" taux="50%">Enseignement</serv:nom>
+    <serv:nom id="S2" taux="50%">Recherche</serv:nom>
+  </employe>
+</employes>

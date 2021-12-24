@@ -1,0 +1,44 @@
+<!-- DTD pour l'exercice "crÃ©er un document XML valide" -->
+
+<!-- ELEMENT DEFINITION -->
+
+<!-- dÃ©finition de l'Ã©lÃ©ment racine -->
+<!ELEMENT programmes (nation+)>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment nation -->
+<!ELEMENT nation (programme+)>
+<!ATTLIST nation nom CDATA #REQUIRED>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment programme -->
+<!ELEMENT programme (objectif,mission+)>
+<!ATTLIST programme
+    nom CDATA #REQUIRED
+    debut CDATA #IMPLIED
+    fin CDATA #IMPLIED
+    missions CDATA #IMPLIED
+>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment mission -->
+<!ELEMENT objectif (#PCDATA)>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment mission -->
+<!ELEMENT mission (but*,evenement*,astronaute*)>
+<!ATTLIST mission 
+    nom CDATA #REQUIRED
+    type CDATA #IMPLIED
+    date CDATA #REQUIRED
+    fin CDATA #IMPLIED
+>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment but -->
+<!ELEMENT but (#PCDATA)>
+
+
+<!-- dÃ©finition de l'Ã©lÃ©ment evenement -->
+<!ELEMENT evenement (#PCDATA)>
+
+<!-- dÃ©finition de l'Ã©lÃ©ment astronaute -->
+<!ELEMENT astronaute (#PCDATA)>
+<!ATTLIST astronaute
+    role CDATA #IMPLIED
+>

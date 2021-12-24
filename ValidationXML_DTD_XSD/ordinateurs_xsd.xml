@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ordinateurs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ordinateurs.xsd">
+
+        <ordinateur numero="pc_salon" prix="45.87">
+            <description marque="asus" ></description>
+            <cpu marque="intel" modele="i5" />
+            <ram taille="10Go"></ram>
+            <disque taille ="250Go"></disque>
+        </ordinateur>
+    
+        <ordinateur numero="pc_chambre" >
+            <description marque="asus">PC de la chambre</description>
+            <cpu marque="intel" modele="i7"/>
+            <ram taille="5Go"></ram>
+            <disque taille="500Go" date="10/01/1998"></disque>
+        </ordinateur>
+    
+</ordinateurs>

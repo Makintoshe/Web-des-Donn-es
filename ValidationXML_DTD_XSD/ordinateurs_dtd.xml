@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordinateurs SYSTEM "ordinateurs.dtd">
+<ordinateurs>
+
+    <ordinateur numero="pc_salon">
+        <description marque="asus" ></description>
+        <cpu marque="intel" modele="i5" />
+        <ram taille="10Go"></ram>
+        <disque taille ="250Go"></disque>
+    </ordinateur>
+
+    <ordinateur numero="pc_chambre" prix="50$">
+        <description marque="asus">PC de la chambre</description>
+        <cpu marque="intel" modele="i7"/>
+        <ram taille="5Go"></ram>
+        <disque taille="500Go" date="2021-10-08"></disque>
+    </ordinateur>
+
+</ordinateurs>
